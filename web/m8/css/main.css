@@ -1,7 +1,12 @@
 #institut{
 	font-variant: small-caps;	
+	margin-bottom: 5px;
+	padding-bottom: 0px;
 }
 .links{
 	font-variant: small-caps;
 	font-size: 17px;
+}
+hr{
+	margin-top: 5px;
 }
