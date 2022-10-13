@@ -1,12 +1,27 @@
+#title{
+	margin: 5px;
+	text-align: center;
+	font-variant: small-caps;
+	display: inline-block;
+	justify-content: center;
+}
 #institut{
 	font-variant: small-caps;	
-	margin-bottom: 5px;
+	font-size: 15px;
+	color: blue;
+	margin: 5px;
 	padding-bottom: 0px;
+	padding-right: 0px;
+	background-color: red;
+	display: inline-block;
 }
 .links{
 	font-variant: small-caps;
+	font-weight: bolder;
 	font-size: 17px;
+	text-align: center;
 }
+
 hr{
 	margin-top: 5px;
 }
