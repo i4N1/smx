@@ -1,0 +1,11 @@
+HEAD:
+'<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora JS</title>
+    <script src="opSelection.js"></script>
+    <script src="calc.js"></script>
+    <link rel="stylesheet" href="calc.css" type="text/css">'
+
+BODY:
+'    <h1 style="display: flex; justify-content: center; font-weight: bold;">Suma</h1><div style="display: flex; justify-content: center;"><input type="number" name="value1" id="val1" placeholder="Primer valor"><p> + </p><input type="number" name="value2" id="val2" placeholder="Segundo valor"><input type="button" value="Sumar" id="sumButton" onclick="sum()"></div><hr /><div style="display: flex; justify-content: center;"><p>Resultado de la operación: </p><p id="opResult"></p></div><hr /><div style="display: flex; justify-content: center;"><input type="button" value="Seleccionar otra operación" id="resetButton" onclick="reset()"></div>'

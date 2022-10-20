@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SelectSuma</title>
+    <script src="calc.js"></script>
+    <script src="testcalc.js"></script>
+</head>
+<body>
+    <div style="display: flex; justify-content: center;">
+        <input type="number" name="value1" id="val1" placeholder="Primer valor">
+        <input type="number" name="value2" id="val2" placeholder="Segundo valor">
+        <input type="button" value="Sumar" id="sumButton" onclick="subtract()">
+    </div>
+    <hr />
+    <div style="display: flex; justify-content: center;">
+        <p>Resultado de la operación: </p><p id="opResult"></p>
+    </div>
+    <hr />
+    <div style="display: flex; justify-content: center;">
+        <input type="button" value="Seleccionar otra operacion" id="resetButton" onclick="reset()">
+    </div>
+</body>
+</html>

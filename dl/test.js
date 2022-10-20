@@ -1,0 +1,3 @@
+function changeAll(){
+    document.querySelector("body").innerHTML = '    <form id="operation" method="post" name="operation_form"><label>Value 1</label><input type="number" name="value1" id="val1"><label>Value 2</label><input type="number" name="value2" id="val2"><input type="button" value="Sum" id="sumButton" onclick="sum()"><input type="button" value="Subtract" id="subtractButton" onclick="subtract()"><input type="button" value="Multiply" id="multiplyButton" onclick="multiply()"></form><div style="display: flex;"><p>Resultado de la operación:     </p><p id="opResult"></p></div>';
+}
