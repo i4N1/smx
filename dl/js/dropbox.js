@@ -1,13 +1,12 @@
-var defaultBars = document.getElementsByClassName("dropbtn").innerHTML = '|||'
-var openedBars = document.getElementsByClassName("dropbtn").innerHTML = '///'
-
 
 function expandBox(){
+    const button = document.querySelector(".dropbtn");
     document.getElementById("myDropdown").classList.toggle("show");
-    document.getElementsByClassName("dropbtn").innerHTML = openedBars;
+    button.innerText = "///";
 }
 
 window.onclick = function(event) {
+    const button = document.querySelector(".dropbtn");
     if (!event.target.matches('.dropbtn'))  {
         var dropdowns = document.getElementsByClassName("dropdown-content");
         var i;
@@ -15,7 +14,7 @@ window.onclick = function(event) {
             var openDropdown = dropdowns[i];
             if (openDropdown.classList.contains('show')) {
                 openDropdown.classList.remove('show');
-                document.getElementsByClassName("dropbtn").innerHTML = defaultBars;
+                button.innerText = "|||";
             }
         }
     }
