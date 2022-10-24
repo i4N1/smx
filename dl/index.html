@@ -1,23 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 	<head>
 		<meta charset=UTF8>
 		<title>Pàgina de benvinguda</title>
-		<link rel="stylesheet" type="text/css" href="main.css" media="screen" />
-		<link rel="stylesheet" href="breadcrumbs.css">
-		<link rel="script" type="text/javascript" href="main.js">
+		<link rel="stylesheet" type="text/css" href="css/main.css" media="screen" />
+		<link rel="stylesheet" href="css/breadcrumbs.css">
+		<link rel="stylesheet" href="css/dropbox-index.css">
+		<script src="js/dropbox.js"></script>
 	</head>
 	<body>
 		<div class="header">
-			<h1 id="title"><strong>Ian Diaz</strong></h1>
-			<p id="institut"><strong>institut tecnològic de barcelona</strong></p>
+			<div class="headerText">
+				<h1 class="title"><strong>Ian Diaz</strong></h1>
+				<p class="institut"><strong>institut tecnològic de barcelona</strong></p>
+			</div>
+			<div class="dropdown">
+				<button onclick="expandBox()" class="dropbtn">|||</button>
+				<div id="myDropdown" class="dropdown-content">
+					<a href="#home">We</a>
+					<a href="#about">Need</a>
+					<a href="#contact">To</a>
+					<a href="#lol">Cook</a>
+				</div>
 		</div>
-        <hr />
-        <div class="links">
-            <a href="Fotos">Fotos</a>
-            <a href="/Calendari/Calendari.html">Calendari</a>
-			<a href="saul.html">Ke?</a>
-			<a href="/Calc/multicalc.html">Calculadora JS</a>
+		<div class="main">
+		<!--
+			<hr />
+			<div class="links">
+				<a href="Fotos">Fotos</a>
+				<a href="Calendari.html">Calendari</a>
+				<a href="saul.html">Ke?</a>
+				<a href="multicalc.html">Calculadora JS</a>
+			</div> -->
 		</div>
 	</body>
 </html>

@@ -1,0 +1,53 @@
+* {
+    margin-top:0;
+    margin-left:0;
+    margin-right:0px;
+}
+
+@font-face {
+	font-family: firstFontBold;
+	src: url(../Fonts/Hack-Bold.ttf);
+  }
+
+.header {
+	margin-top:0;
+    margin-left:0;
+    margin-right:0px;
+	background-color: lightblue;
+	vertical-align: middle;
+}
+
+.headerText{
+	padding-top: 48px;
+	text-align: center;
+	vertical-align: middle;
+	font-family: firstFontBold;
+}
+.main{
+    margin: 16px;
+    padding: 16px;
+}
+.title{
+	margin: 5px;
+	display: inline;
+	font-variant: small-caps;
+}
+.institut{
+	font-variant: small-caps;	
+	font-size: 15px;
+	color: blue;
+	margin: 5px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+}
+
+.links{
+	font-variant: small-caps;
+	font-weight: bolder;
+	font-size: 17px;
+	text-align: center;
+}
+
+hr{
+	margin-top: 5px;
+}
