@@ -1,0 +1,28 @@
+* {
+    margin-top:0;
+    margin-left:0;
+    margin-right:0px;
+}
+
+.main{
+    margin: 16px;
+    padding: 16px;
+}
+
+ul.breadcrumb {
+    position: ;
+    padding: 10px 16px;
+    list-style: none;
+    background-color: #eee;
+}
+
+ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+}
+
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a";
+}
