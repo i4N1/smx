@@ -4,6 +4,10 @@
     margin-right:0px;
 }
 
+body{
+	background-color: lightgrey;
+}
+
 @font-face {
 	font-family: firstFontBold;
 	src: url(../Fonts/Hack-Bold.ttf);
@@ -13,7 +17,7 @@
 	margin-top:0;
     margin-left:0;
     margin-right:0px;
-	background-color: lightblue;
+	background-color: #0066cc;
 	vertical-align: middle;
 }
 
@@ -28,6 +32,7 @@
     padding: 16px;
 }
 .title{
+	color: lightgrey;
 	margin: 5px;
 	display: inline;
 	font-variant: small-caps;

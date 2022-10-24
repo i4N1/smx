@@ -1,0 +1,73 @@
+* {
+    margin-top:0;
+    margin-left:0;
+    margin-right:0px;
+}
+
+body {
+	background-color: lightgrey;
+}
+
+.header {
+	margin-top:0;
+    margin-left:0;
+    margin-right:0px;
+	background-color: #0066cc;
+	vertical-align: middle;
+}
+
+.headerText{
+	text-align: center;
+	vertical-align: middle;
+	font-family: firstFontBold;
+    padding-top: 50px;
+	padding-bottom: 10px;
+}
+
+.title{
+	color: lightgray;
+	margin: 5px;
+	display: inline;
+	font-variant: small-caps;
+}
+.institut{
+	font-variant: small-caps;	
+	font-size: 15px;
+	color: blue;
+	margin: 5px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+}
+
+
+.main{
+    margin: 16px;
+    padding: 16px;
+}
+
+ul.breadcrumb {
+    color: white;
+    float: left;
+    min-width: 100%;
+    position: relative;
+    padding: 10px 16px;
+    list-style: none;
+    background-color: #336699;
+    margin-bottom: 0px;
+}
+
+a {
+    font-weight: bold;
+    color: lightgrey;
+}
+
+ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+}
+
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a";
+}

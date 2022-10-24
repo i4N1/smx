@@ -1,8 +1,21 @@
+body {
+	background-color: lightgrey;
+}
+
+ul {
+	color: black;
+}
+
+table {
+	margin-left: 25px;
+	margin-bottom: 25px;
+}
+
 .header {
 	margin-top:0;
     margin-left:0;
     margin-right:0px;
-	background-color: lightblue;
+	background-color: #0066cc;
 	vertical-align: middle;
 }
 
@@ -10,6 +23,21 @@
 	text-align: center;
 	vertical-align: middle;
 	font-family: firstFontBold;
-    padding-bottom: 10px;
-    padding-top: 10px;
+    padding-top: 50px;
+	padding-bottom: 10px;
+}
+
+.title{
+	color: lightgray;
+	margin: 5px;
+	display: inline;
+	font-variant: small-caps;
+}
+.institut{
+	font-variant: small-caps;	
+	font-size: 15px;
+	color: blue;
+	margin: 5px;
+	padding-bottom: 0px;
+	padding-right: 0px;
 }
