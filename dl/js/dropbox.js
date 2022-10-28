@@ -2,7 +2,11 @@
 function expandBox(){
     const button = document.querySelector(".dropbtn");
     document.getElementById("myDropdown").classList.toggle("show");
-    button.innerText = "///";
+    if (button.innerText == "///"){
+        button.innerText = "|||";
+    } else {
+        button.innerText = "///";
+    }
 }
 
 window.onclick = function(event) {

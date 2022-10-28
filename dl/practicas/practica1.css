@@ -1,5 +1,7 @@
 body {
 	background-color: lightgrey;
+	cursor: url(https://cur.cursors-4u.net/games/gam-4/gam372.cur), auto;
+	cursor: url(https://cur.cursors-4u.net/games/gam-4/gam372.cur), pointer;
 }
 
 ul {
@@ -17,6 +19,7 @@ table {
     margin-right:0px;
 	background-color: #0066cc;
 	vertical-align: middle;
+	cursor: url(https://cur.cursors-4u.net/games/gam-4/gam372.cur), auto;
 }
 
 .headerText{
@@ -25,6 +28,12 @@ table {
 	font-family: firstFontBold;
     padding-top: 50px;
 	padding-bottom: 10px;
+}
+
+
+.ex34 a {
+	color: blue;
+	font-weight: lighter;
 }
 
 .title{
@@ -40,4 +49,9 @@ table {
 	margin: 5px;
 	padding-bottom: 0px;
 	padding-right: 0px;
+}
+
+.cFlags img{
+	height: 25px;
+	width: 50px;
 }
