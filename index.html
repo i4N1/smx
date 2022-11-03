@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <div class="formContainer">
+        <div class="userInput">
+            <p>Username</p>
+            <input class="inputs" id="check" type="text" placeholder="Input your username...">
+            <button enabled class="checkUname" id="check" onclick="checkUname()" title="Your username cannot contain any special characters, click to check if your username is available.">?</button>
+        </div>
+        <div class="passwdInput">
+            <p>Password</p>
+            <input class="inputs" id="passwdInput" type="text" placeholder="Input a new password, must contain 8 characters and at least one number...">
+            <button class="checkPasswd" id="check" onclick="checkPasswd()">?</button>
+        </div>
+        <p>E-Mail</p>
+        <input class="inputs" type="text" placeholder="Input your E-Mail...">
+        <p>Date of birth</p>
+        <input class="inputs" type="date">
+        <p>Gender</p>
+        <select name="gender" id="genderSelector">
+            <option value="none">Select...</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+        </select>
+        <br>
+        <button class="submitButton" type="submit">Register</button>
+    </div>
+</body>
+</html>
