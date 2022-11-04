@@ -1,0 +1,69 @@
+body{
+    margin:0;
+    background: linear-gradient(to bottom, #141313, #1f1e1e) ;
+}
+
+#page1 {
+    margin: 0;
+    background: linear-gradient(to bottom, #141313, #1f1e1e) ;
+    min-height: 100vh; 
+}
+
+@keyframes fade {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 35vh;
+    max-height: 20vh;
+    animation: fade ease-in 1s forwards;
+    pointer-events: none;
+    opacity: 0;
+}
+
+.subTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding-bottom: 35vh;
+    animation: fade 1s ease-in 2s forwards;
+    pointer-events: none;
+    opacity: 0;
+}
+
+
+#page1 h1{
+    background: linear-gradient(to right, #ffffff, #4a4949) ;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+    font-size: 10rem;
+}
+
+#page1 h2{
+    background: linear-gradient(to right, #ffffff, #4a4949) ;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-variant: small-caps;
+}
+
+p{
+    color: white;
+}
+
+#page2{
+    background: linear-gradient(to bottom, #141313, #1f1e1e) ;
+    min-height: 100vh;
+    padding-left: 3vh;
+}
