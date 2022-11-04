@@ -13,11 +13,13 @@ body{
     text-decoration: none;
     display: flex;
     justify-content: center;
-    background-color: #ffffff;
+    background: linear-gradient(to right, #1f1e1e, #0040FF) ;
     color: black;
     padding: 0;
     margin: 0;
     min-height: 3vh;
+    opacity: 100;
+    animation: popin ease-in-out 1s forwards;
 }
 
 @keyframes fade {
@@ -26,6 +28,26 @@ body{
     }
     100%{
         opacity: 1;
+    }
+}
+
+@keyframes progressBar {
+    0% {
+        width: 0%;
+        opacity: 0%;
+    }100% {
+        width: 100%;
+        opacity: 75%;
+    }
+}
+
+@keyframes popin {
+    0% {
+        margin-left: 50%;
+        margin-right: 50%;
+    }100% {
+        margin-left: 0%;
+        margin-right: 0%;
     }
 }
 
@@ -49,21 +71,21 @@ html{
     justify-content: center;
     align-items: center; 
     padding-bottom: 35vh;
-    animation: fade 1s ease-in 2s forwards;
+    animation: fade ease-in 3s forwards;
     pointer-events: none;
     opacity: 0;
 }
 
 
 #page1 h1{
-    background: linear-gradient(to right, #ffffff, #4a4949) ;
+    background: linear-gradient(to right, #ffffff, #0040FF) ;
    -webkit-background-clip: text;
    -webkit-text-fill-color: transparent;
     font-size: 10rem;
 }
 
 #page1 h2{
-    background: linear-gradient(to right, #ffffff, #4a4949) ;
+    background: linear-gradient(to right, #ffffff, #0040FF) ;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-variant: small-caps;
