@@ -1,0 +1,30 @@
+ul.breadcrumb {
+    color: white;
+    display: flex;
+    position: absolute;
+    bottom: 0px;
+    padding: 10px 16px;
+    list-style: none;
+    background-color: #336699;
+    width: 100vw;
+    margin-left: 26px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+a {
+    font-weight: bold;
+    color: lightgrey;
+}
+
+ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+}
+
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a";
+}
