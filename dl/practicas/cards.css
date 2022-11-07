@@ -64,6 +64,11 @@ i.fa-solid.fa-arrow-down {
     height: 100vh;
 }
 
+.card:hover{
+    opacity: 100%;
+    animation: slideUp ease-in 250ms forwards;
+}
+
 .card {
     background-color: rgba(255,255,255, 0.02);
     border: 1px solid rgba(255,255,255, 0.1);
@@ -74,10 +79,24 @@ i.fa-solid.fa-arrow-down {
     height: 360px;
     width: 300px;
     transition: opacity 500ms ease-out 100ms;
+    animation: slideRev ease-in 250ms forwards;
 }
 
-.card:hover{
-    opacity: 100%;
+
+@keyframes slideUp {
+    0%{
+        transform: translateY(0px);
+    }100% {
+        transform: translateY(-15px);
+    }
+}
+
+@keyframes slideRev {
+    0%{
+        transform: translateY(-15px)
+    }100% {
+        transform: translateY(0px);
+    }
 }
 
 .cardHeader {
