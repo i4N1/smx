@@ -1,0 +1,33 @@
+55a56,78
+>                 <table border="2" bordercolor="red">
+>                     <tr>
+>                         <td rowspan="2">Item 1</td>
+>                         <td>Item 2</td><td>Item 3</td>
+>                         <td rowspan="2">Item 6</td>
+>                     </tr>
+>                     <tr>
+>                         <td>Item 4</td><td>Item 5</td>
+>                     </tr>
+>                 </table>
+>                 <table border="2" cellpadding="20px" bordercolor="red">
+>                     <tr>
+>                         <th colspan="2">Windows</th>
+>                         <th>Ubuntu</th>
+>                         <th>MAC</th>
+>                     </tr>
+>                     <tr>
+>                         <td>win7</td>
+>                         <td>win8</td>
+>                         <td>ubuntu 12.04</td>
+>                         <td>OS x Mountain Lion</td>
+>                     </tr>
+>                 </table>
+58c81
+<             <div id="ex34">
+---
+>             <div class="ex34">
+86c109
+< </html>
+\ No newline at end of file
+---
+> </html>
