@@ -1,6 +1,0 @@
-ftp 10.129.1.15
-ftp> mget ...
-which gobuster
-gobuster dir -u http://10.129.1.15/ -w /usr/share/dirb/wordlists/common.txt -x php,js
-history
-
