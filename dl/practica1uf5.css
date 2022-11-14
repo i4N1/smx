@@ -1,0 +1,25 @@
+body{
+    margin:0;
+    background: linear-gradient(to bottom, #141313, #1f1e1e) ;
+}
+
+#page1 {
+    margin: 0;
+    background: linear-gradient(to bottom, #141313, #1f1e1e) ;
+    min-height: 100vh; 
+}
+
+.title{
+    color: lime;
+    font-size: 100px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.title #slash{
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 110px;
+    color:  gray;
+    opacity: 50%;
+}
