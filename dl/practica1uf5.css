@@ -9,11 +9,36 @@ body{
     min-height: 100vh; 
 }
 
+#header {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#content {
+    margin-left: 25px;
+    margin-top: 50px;
+}
+
+#content h2 {
+    color: lime;
+}
+
+#content .article {
+    border: white 1px solid;
+    border-radius: 10px;
+    width: 50vh;
+    min-height: 250px;
+}
+
 .title{
+    margin-top: 25px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
     color: lime;
     font-size: 100px;
-    margin-left: 50px;
-    margin-top: 50px;
 }
 
 .title #slash{
@@ -22,4 +47,15 @@ body{
     font-size: 110px;
     color:  gray;
     opacity: 50%;
+}
+
+hr {
+    color:  gray;
+    opacity: 50%;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+a {
+    text-decoration: none;
 }
