@@ -27,6 +27,22 @@ body{
     animation: popin ease-in-out 1500ms forwards;
 }
 
+#easy {
+    color: lime;
+}
+
+#medium {
+    color: orange;
+}
+
+#hard {
+    color: red;
+}
+
+#insane {
+    color: lightgray;
+}
+
 #page1 {
     margin: 0;
     background: linear-gradient(to bottom, #141313, #1f1e1e) ;
@@ -41,10 +57,17 @@ body{
 }
 
 #content {
+    display: flex;
+    justify-content: center;
     opacity: 0%;
     margin-left: 25px;
     margin-top: 50px;
     animation: fade ease-in 1000ms forwards;
+}
+
+#content .article {
+    margin-left: 35px;
+    margin-right: 35px;
 }
 
 #content .article h2 {
@@ -79,6 +102,10 @@ body{
     padding-bottom: 15px;
 }
 
+.article .article_content .list_item a {
+    color: #a7a5a5;
+}
+
 .title{
     margin-top: 25px;
     margin-bottom: 20px;
@@ -105,4 +132,5 @@ hr {
 
 a {
     text-decoration: none;
+
 }
