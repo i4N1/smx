@@ -3,6 +3,10 @@ body{
     background: linear-gradient(to bottom, #141313, #1f1e1e) ;
 }
 
+input[type="checkbox"] {
+    accent-color: lime;
+}
+
 @keyframes popin {
     0% {
         margin-left: 50%;
