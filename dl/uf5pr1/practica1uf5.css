@@ -130,6 +130,23 @@ hr {
     margin-right: 25px;
 }
 
+#changeFilter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 35px;
+    background-color: lime;
+}
+
+#changeFilter a {
+    color: white;
+}
+
 a {
     text-decoration: none;
 
