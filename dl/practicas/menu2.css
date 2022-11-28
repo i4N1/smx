@@ -17,5 +17,6 @@
 }
 .menu li a:hover {
     background-color: #2586d7;
+    /* en -5px pones los pixeles q quieres que se desplace (borra este comentario luego maricon) */
     transform: translateY(-5px);
 }
