@@ -68,18 +68,18 @@ input[type="checkbox"] {
 }
 
 #content {
+    justify-content: space-between;
+    flex-direction: row;
     top: 0;
     display: flex;
     opacity: 0%;
     margin-left: 25px;
     animation: fade ease-in 1000ms forwards;
     height: 77.5vh;
-    width: 100vw;
+    width: 100%;
 }
 
 #content #sidemenuLeft {
-    display: flex;
-    justify-self: left;
     width: 20vw;
     height: 77.5vh;
     background-color: #2c2a29;
@@ -87,11 +87,20 @@ input[type="checkbox"] {
     opacity: 75%;
 }
 
+#content #middle {
+    justify-self: center;
+    width: 50vw;
+    height: 77.5vh;
+    background-color: #2c2a29;
+    border-radius: 10px;
+    opacity: 75%;
+}
+
 #content #sidemenuRight {
-    display: flex;
-    position: absolute;
-    right: 62px;
-    justify-self: end;
+    justify-content: end;
+    margin-right: 50px;
+/*    position: absolute;
+    right: 25px;*/
     width: 20vw;
     height: 77.5vh;
     background-color: #2c2a29;
