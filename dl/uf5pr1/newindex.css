@@ -98,7 +98,7 @@ input[type="checkbox"] {
 
 #content #sidemenuRight {
     justify-content: end;
-    margin-right: 50px;
+    margin-right: 25px;
 /*    position: absolute;
     right: 25px;*/
     width: 20vw;
